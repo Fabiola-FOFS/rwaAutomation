@@ -1,10 +1,29 @@
-{ 
-    "userSuccess": {
-       "username": "Dina20",
-       "password": "s3cret"
+{
+  "userSuccess": {
+    "username": "Dina20",
+    "password": "s3cret"
   },
-    "userFail": {
-       "username": "test",
-       "password": "1236"
+  "userFail": {
+    "username": "test",
+    "password": "1236"
+  },
+  "newUser": {
+    "newUserFisrtName": "fabiola",
+    "newUserLastName": "Oliveira",
+    "newUserName": "Fofs7",
+    "newUserPassword": "secret"
+  },
+  "newUserInvalid": {
+    "newUserFisrtNameinv": "7899+6",
+    "newUserLastNameInv": "5156262",
+    "newUserInv": "fofs",
+    "newUserPasswordInv": "123"
+  },
+  "bankData": {
+    "bankname": "RWABank",
+    "RoutingNumber": "123456789",
+    "BankAccount": "789456123"
   }
 }
+
+         
