@@ -10,7 +10,7 @@ describe('exercicio 1 RWA', () => {
   };
 
   it("Deve fazer login com usuário valido", () => {
-    cy.visit("http://localhost:3000/signin");
+    cy.visit("/localhost:3000/");
     cy.get(selectorsList.usernameField).type(userData.userSuccess.username);
     cy.get(selectorsList.passwordField).type(userData.userSuccess.password);
     cy.get(selectorsList.rememberMeButton).click();
@@ -19,7 +19,7 @@ describe('exercicio 1 RWA', () => {
     //cy.get('[data-test="nav-public-tab"]').contains('EVERYONE')
   });
   it("Deve exibir uma mensagem de erro ao fazer login com credenciais inválidas", () => {
-    cy.visit("http://localhost:3000/signin");
+    cy.visit("/localhost:3000/");
     cy.get(selectorsList.usernameField).type(userData.userFail.username);
     cy.get(selectorsList.passwordField).type(userData.userFail.password);
     cy.get(selectorsList.rememberMeButton).click();
