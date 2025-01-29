@@ -1,0 +1,36 @@
+{
+  "userSuccess": {
+    "username": "Dina20",
+    "password": "s3cret"
+  },
+  "userFail": {
+    "username": "test",
+    "password": "1236"
+  },
+  "newUser": {
+    "newUserFisrtName": "Marisa",
+    "newUserLastName": "Oliveira",
+    "newUserName": "yo88",
+    "newUserPassword": "s3cret"
+  },
+  "newUserInvalid": {
+    "newUserFisrtNameinv": "7899+6",
+    "newUserLastNameInv": "5156262",
+    "newUserInv": "fofs",
+    "newUserPasswordInv": "123"
+  },
+  "bankData": {
+    "bankname": "RWABank",
+    "RoutingNumber": "123456789",
+    "BankAccount": "789456123"
+  }, 
+  
+  "paymentData": {
+    "contactnamePay": "Kristian Bradtke",
+    "amountInput":  "250",
+    "amountFail": "20000",
+    "description": "pagando o dentista"
+  } 
+}
+
+         
