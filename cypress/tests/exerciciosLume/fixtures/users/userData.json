@@ -8,10 +8,10 @@
     "password": "1236"
   },
   "newUser": {
-    "newUserFisrtName": "fabiola",
+    "newUserFisrtName": "Marisa",
     "newUserLastName": "Oliveira",
-    "newUserName": "Fofs7",
-    "newUserPassword": "secret"
+    "newUserName": "yo88",
+    "newUserPassword": "s3cret"
   },
   "newUserInvalid": {
     "newUserFisrtNameinv": "7899+6",
@@ -23,7 +23,14 @@
     "bankname": "RWABank",
     "RoutingNumber": "123456789",
     "BankAccount": "789456123"
-  }
+  }, 
+  
+  "paymentData": {
+    "contactnamePay": "Kristian Bradtke",
+    "amountInput":  "250",
+    "amountFail": "20000",
+    "description": "pagando o dentista"
+  } 
 }
 
          
